@@ -60,7 +60,7 @@ function recorridosHTML() {
   }
   retorno += `</tr>`;
 
-  retorno += `<tr>`;
+  retorno += `<tr style="font-weight:bolder;background:lightblue;">`;
   retorno += `<td>In-orden</td>`;
   for (const e of arr_inorden) {
     retorno += `<td>`;
